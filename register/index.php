@@ -3,7 +3,7 @@
 
 session_start();
 //connect to database
-$link = mysqli_connect ("localhost", "mun", "forthesakeofourstartup", "mun");
+$link = mysqli_connect ("localhost", "user", "password", "database");
 $postData = $statusMsg = ''; 
 $status = 'error'; 
  
